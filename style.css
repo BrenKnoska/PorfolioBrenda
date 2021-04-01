@@ -4,10 +4,6 @@
     box-sizing: border-box; 
 
     }
-    @font-face {
-        font-family: 'Dosis';
-        src: url(/fonts/Dosis-SemiBold.ttf) format("truetype");
-    } 
     
     body {
         background-color: rgb(26, 26, 26);
@@ -17,6 +13,7 @@
         font-family: 'Dosis';
         color: white;
         font-size: 35px;
+        font-family: 'Dosis', sans-serif;
     }
     h1 {
         color: white;
