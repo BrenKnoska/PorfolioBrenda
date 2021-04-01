@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #302b2a;
+    background-color:rgb(26, 26, 26);
+    /* #302b2a */
 }
 
 h2 {
@@ -96,7 +97,6 @@ main {
     margin-bottom: 8%;
     font-size: 21px;
     
-
 }
 li {
     display: flex;
