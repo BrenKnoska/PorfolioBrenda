@@ -7,7 +7,6 @@
     
     body {
         background-color: rgb(26, 26, 26);
-        /* #302b2a */
     }
     h2 {
         font-family: 'Dosis';
@@ -32,6 +31,10 @@
     a:hover {
         color: #272640;
     }
+    header{
+        position: fixed;
+        width: 100vw;
+    }
     nav {
         background-color: #fbaccc;
         font-family: 'Huntress';
@@ -43,6 +46,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        height: 100vh;
     }
     .imagen {
         display: flex;
@@ -100,4 +104,13 @@
         align-items: center;
         justify-content: flex-end;
         margin-right: 10%;
+    }
+    #skills{
+        background-color: rgb(83, 80, 80);
+        width: auto;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        
+
     }

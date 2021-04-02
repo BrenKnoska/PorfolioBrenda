@@ -1,8 +1,9 @@
 @font-face {
-    font-family:Harlow Solid;
+    font-family: Harlow Solid;
     src: url(/fonts/HARLOWSI.TTF);
 }
+
 @font-face {
-    font-family:Huntress;
+    font-family: Huntress;
     src: url(/fonts/huntress.otf);
-    }
+}
