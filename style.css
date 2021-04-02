@@ -148,3 +148,47 @@ ul {
     text-align: center;
     font-size: 19px;
 }
+#skills{
+display: block;
+height: 100vh;
+}
+
+.bloque1{
+    display:flex;
+    width: auto;
+    justify-content: center;
+}
+.bloque2{
+display:flex;
+width: auto;
+height: 200vh;
+justify-content:center;
+background-color:rgb(49, 48, 48);
+
+}
+.cards:hover{
+    background-color: white;
+    width: 260px;
+    height: 229px;
+    margin:20px;
+    display: flex; 
+ animation-direction: normal;
+    background-color: rgb(255, 255, 255);
+    border-radius:1px red;
+    border: 5px rgb(255, 129, 150);
+    box-shadow: -10px -10px 15px rgb(255, 114, 114), 10px 10px 20px rgb(255, 201, 232);
+   transition:ease 0.6s;
+   animation-delay: 4s;
+   transform: rotate(0.5turn);
+
+
+
+
+}
+.cards{
+    background-color: white;
+    width: 260px;
+    height: 229px;
+    margin:20px;
+    display: flex; 
+}
