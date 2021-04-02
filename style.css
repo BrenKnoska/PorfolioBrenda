@@ -23,7 +23,8 @@
     p {
         font-family: 'Dosis';
         color: white;
-        font-size: 18px
+        font-size: 20px;
+        margin-top: 3%;
     }
     a {
         text-decoration: none;
