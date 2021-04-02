@@ -33,7 +33,23 @@ a {
     text-decoration: none;
     color: white;
 }
+h4{
+    font-family: 'Dosis';
+    font-size: 20px;
+ display:flex;
+ margin-top: 5%;
+ justify-content:center;
+}
 
+i{
+font-size: 75px;
+display: flex;
+justify-content: center;
+margin-top: 6%;
+
+    
+
+}
 a:hover {
     color: #ffbde3;
 }
@@ -148,47 +164,67 @@ ul {
     text-align: center;
     font-size: 19px;
 }
-#skills{
-display: block;
-height: 100vh;
+
+#skills {
+    display: block;
+    height: 100vh;
 }
 
-.bloque1{
-    display:flex;
+.bloque1 {
+    display: flex;
     width: auto;
     justify-content: center;
 }
-.bloque2{
-display:flex;
-width: auto;
-height: 200vh;
-justify-content:center;
-background-color:rgb(49, 48, 48);
 
+.bloque2 {
+    display: flex;
+    width: auto;
+    height: 70vh;
+    justify-content: center;
+    background-color: rgb(49, 48, 48);
 }
-.cards:hover{
+
+.cards:hover {
     background-color: white;
-    width: 260px;
-    height: 229px;
-    margin:20px;
-    display: flex; 
- animation-direction: normal;
+    animation-direction: normal;
     background-color: rgb(255, 255, 255);
-    border-radius:1px red;
     border: 5px rgb(255, 129, 150);
     box-shadow: -10px -10px 15px rgb(255, 114, 114), 10px 10px 20px rgb(255, 201, 232);
-   transition:ease 0.6s;
-   animation-delay: 4s;
-   transform: rotate(0.5turn);
-
-
-
-
+    transition: ease 1s;
+    transform: rotate(1turn);
 }
-.cards{
+
+.cards {
     background-color: white;
     width: 260px;
-    height: 229px;
-    margin:20px;
-    display: flex; 
+    height: 220px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    border: solid black 2px; 
+}
+
+.comillas {
+    background-color: rgb(97, 97, 97);
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen2 {
+    width: 80px;
+    height: 80px;
+    border-image: solid black 70px;
+    background-color: black
+}
+
+.textodecomillas {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 21px;
+    text-shadow: 4px 3px 3px black;
 }
