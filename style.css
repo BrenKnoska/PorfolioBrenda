@@ -26,7 +26,8 @@ p {
     font-family: 'Dosis';
     color: white;
     font-size: 20px;
-    margin-top: 3%;
+   padding: 2%
+   
 }
 
 a {
@@ -50,8 +51,7 @@ i {
 }
 
 .sombra {
-    text-shadow: 4px 4px 3px black;
-
+    text-shadow: 4px 3px 3px black;
 }
 
 a:hover {
@@ -210,14 +210,13 @@ ul {
 }
 
 .citas {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(204, 153, 153);
     width: auto;
     height: 75vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 15%;
-
 }
 
 .textodecomillas {
@@ -225,7 +224,6 @@ ul {
     align-items: center;
     font-size: 21px;
     justify-content: center;
-
 }
 
 .fa.fa-quote-right {
@@ -235,11 +233,61 @@ ul {
     flex-direction: column;
 }
 
-.Projects {
-    background-color: rgba(255, 255, 255, 0.52);
+#Projects {
+    background-color: rgba(59, 45, 45, 0.52);
     width: auto;
-    padding: 7%;
 }
-.autor{
+
+.autor {
     margin-top: 4%;
 }
+
+.tituloproyecto {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 19px;
+padding-bottom: 3%;
+
+   
+}
+
+.card-project {
+    background-color: white;
+    width: 342px;
+    height: 348px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    border: solid black 2px;
+    
+}
+
+.card-project:hover {
+    background-color: white;
+    width: 342px;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: crimson -8px 8px 9px, pink 8px -5px 8px; 
+    border: solid black 1px;
+  
+
+}
+
+.colorfondo {
+    background-color: rgba(59, 45, 45, 0.52);
+}
+.card-oscura{
+   background-color: rgb(26, 26, 26);
+}
+.alinear-izquierda{
+padding-right: 49%;
+
+}
+    
