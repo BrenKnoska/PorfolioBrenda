@@ -33,23 +33,27 @@ a {
     text-decoration: none;
     color: white;
 }
-h4{
+
+h4 {
     font-family: 'Dosis';
     font-size: 20px;
- display:flex;
- margin-top: 5%;
- justify-content:center;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
 }
 
-i{
-font-size: 75px;
-display: flex;
-justify-content: center;
-margin-top: 6%;
+i {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
 
-    
+.sombra {
+    text-shadow: 4px 4px 3px black;
 
 }
+
 a:hover {
     color: #ffbde3;
 }
@@ -141,7 +145,6 @@ ul {
 #skills {
     background-color: rgb(49, 48, 48);
     width: auto;
-    height: 100vh;
     margin: 0px;
     padding: 0px;
 }
@@ -203,28 +206,40 @@ ul {
     justify-content: center;
     flex-direction: column;
     border-radius: 8px;
-    border: solid black 2px; 
+    border: solid black 2px;
 }
 
-.comillas {
+.citas {
     background-color: rgb(97, 97, 97);
     width: auto;
-    height: 100vh;
+    height: 75vh;
     display: flex;
-    justify-content: center;
-}
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
 
-.imagen2 {
-    width: 80px;
-    height: 80px;
-    border-image: solid black 70px;
-    background-color: black
 }
 
 .textodecomillas {
     display: flex;
-    text-align: center;
-    justify-content: space-around;
+    align-items: center;
     font-size: 21px;
-    text-shadow: 4px 3px 3px black;
+    justify-content: center;
+
+}
+
+.fa.fa-quote-right {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Projects {
+    background-color: rgba(255, 255, 255, 0.52);
+    width: auto;
+    padding: 7%;
+}
+.autor{
+    margin-top: 4%;
 }
