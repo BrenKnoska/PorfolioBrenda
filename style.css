@@ -26,8 +26,22 @@ p {
     font-family: 'Dosis';
     color: white;
     font-size: 20px;
-   padding: 2%
-   
+    padding: 2%
+}
+
+h3 {
+    font-family: 'Dosis';
+    font-size: 16px;
+    text-align: start;
+    padding-top: 16%;
+    padding-bottom: 1%;
+}
+
+.letradecontacto {
+    font-family: 'Dosis';
+    font-size: 16px;
+    text-align: start;
+    padding-top: 10%;
 }
 
 a {
@@ -52,6 +66,14 @@ i {
 
 .sombra {
     text-shadow: 4px 3px 3px black;
+}
+
+.sombra-contenedores {
+    box-shadow: 0px 19px 38px rgb(100, 100, 100), 5px 8px 12px rgba(0, 0, 0, 0.979);
+}
+
+.sombraletracontacto {
+    text-shadow: black 1px 0px 2px
 }
 
 a:hover {
@@ -234,8 +256,9 @@ ul {
 }
 
 #Projects {
-    background-color: rgba(59, 45, 45, 0.52);
+    background-color: #3B2C2C;
     width: auto;
+    padding-bottom: 8%;
 }
 
 .autor {
@@ -248,9 +271,7 @@ ul {
     justify-content: space-around;
     text-align: center;
     font-size: 19px;
-padding-bottom: 3%;
-
-   
+    padding-bottom: 3%;
 }
 
 .card-project {
@@ -263,7 +284,6 @@ padding-bottom: 3%;
     flex-direction: column;
     border-radius: 8px;
     border: solid black 2px;
-    
 }
 
 .card-project:hover {
@@ -274,20 +294,352 @@ padding-bottom: 3%;
     justify-content: center;
     flex-direction: column;
     border-radius: 8px;
-    box-shadow: crimson -8px 8px 9px, pink 8px -5px 8px; 
+    box-shadow: crimson -8px 8px 9px, pink 8px -5px 8px;
     border: solid black 1px;
-  
-
 }
 
 .colorfondo {
     background-color: rgba(59, 45, 45, 0.52);
 }
-.card-oscura{
-   background-color: rgb(26, 26, 26);
+
+.card-oscura {
+    background-color: rgb(26, 26, 26);
 }
-.alinear-izquierda{
-padding-right: 49%;
+
+.alinear-izquierda {
+    padding-right: 49%;
+}
+
+#contactame {
+    background-color: rgb(214, 181, 181);
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 90px 60px;
+    width: 1088px;
+    height: 693px;
+    border-radius: 13px;
+    margin-top: 10%;
+  
+   
 
 }
-    
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: aqua; */
+}
+
+.modificacionh2 {
+    font-family: 'Dosis';
+    font-size: 50px;
+    color: #E66465;
+    text-shadow: rgb(255, 145, 131) 4px 1px 4px;
+    margin-right: 13%;
+}
+
+.parrafo-negro {
+    color: black;
+    font-size: 18px;
+    margin-right: 20%;
+    text-align: justify;
+    margin-left: -1%;
+    line-height: 1.4em;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 7%;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+.list1 {
+    display: flex;
+    margin: 0px;
+    align-self: flex-start;
+    align-items: baseline;
+}
+
+.list2 {
+    display: flex;
+    margin: 0px;
+    align-self: flex-start;
+    align-items: baseline;
+}
+
+.list3 {
+    display: flex;
+    margin: 0px;
+    padding-top: 1%;
+    align-self: flex-start;
+    align-items: baseline;
+}
+
+.list4 {
+    display: flex;
+    margin: 0px;
+    align-self: flex-start;
+    align-items: baseline;
+}
+
+.fab.fa-twitter {
+    color: #E66465;
+    display: flex;
+    margin: 0px;
+    padding-left: 8px;
+    margin-left: -20px;
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+.fab.fa-github-alt {
+    color: #E66465;
+    display: flex;
+    margin: 0px;
+    padding-left: 8px;
+    margin-left: -20px;
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+.fab.fa-linkedin-in {
+    color: #E66465;
+    display: flex;
+    margin: 0px;
+    padding-left: 8px;
+    margin-left: -20px;
+    padding-right: 8px;
+    font-size: 18px;
+}
+
+.fas.fa-envelope {
+    color: #E66465;
+    display: flex;
+    margin: 0px;
+    padding-left: 8px;
+    margin-left: -20px;
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+.botoncircular {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+.botoncircular:hover {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #E66465;
+    color: white;
+    animation: normal;
+    transition: 1s
+}
+
+.botoncirculartipo2 {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-self: baseline;
+    padding-top: 6%;
+    align-self: baseline;
+    color: white;
+}
+
+.botoncirculartipo2:hover {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-self: baseline;
+    padding-top: 6%;
+    animation: normal;
+    transition: 1s;
+    background-color: #E66465;
+    color: white;
+    align-self: baseline;
+}
+
+.escribime {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightskyblue; */
+}
+
+.contenedordedatos {
+    display: flex;
+    flex-direction: row;
+}
+
+.asterisco {
+    display: flex;
+    flex-direction: column;
+}
+
+.separacion {
+    margin-left: 2%;
+}
+
+#idnombre {
+    border-radius: 20px;
+    font-family: 'Dosis';
+    border: solid #E66465;
+    box-shadow: 4px 1px 4px black;
+    text-decoration: none;
+    height: 38px;
+    width: 210px;
+    appearance: none;
+    outline: none;
+}
+
+#idnombre:focus {
+    border-radius: 20px;
+    font-family: 'Dosis';
+    border: solid #E66465;
+    box-shadow: 4px 1px 4px rgb(255, 0, 140);
+    text-decoration: none;
+    height: 38px;
+    width: 210px;
+    appearance: none;
+    outline: none;
+    animation: normal;
+    transition: 1s;
+}
+
+.textosformulario {
+    font-family: 'Dosis';
+}
+
+#idapellido {
+    border-radius: 20px;
+    font-family: 'Dosis';
+    border: solid #E66465;
+    box-shadow: 4px 1px 4px black;
+    text-decoration: none;
+    height: 38px;
+    width: 210px;
+    margin-left: 5%;
+    margin: 0px;
+    appearance: none;
+    outline: none;
+}
+
+#idapellido:focus {
+    border-radius: 20px;
+    border: solid #E66465;
+    font-family: 'Dosis';
+    box-shadow: 6px 1px 4px rgb(255, 0, 119);
+    background-color: #fcf3f3;
+    animation: normal;
+    transition: 1s;
+    text-decoration: none;
+    outline: none;
+}
+
+#idemail {
+    font-family: 'Dosis';
+    border: solid #E66465;
+    border-radius: 20px;
+    box-shadow: 6px 1px 4px black;
+    text-decoration: none;
+    height: 43px;
+    width: 500px;
+    appearance: none;
+    outline: none;
+}
+
+#idemail:focus {
+    font-family: 'Dosis';
+    border: solid #E66465;
+    border-radius: 20px;
+    box-shadow: 6px 1px 4px black;
+    text-decoration: none;
+    height: 43px;
+    width: 500px;
+    appearance: none;
+    outline: none;
+    animation: normal;
+    transition: 1s;
+    box-shadow: 6px 1px 4px rgb(255, 0, 119);
+}
+
+#idmensaje {
+    font-family: 'Dosis';
+    border: solid #E66465;
+    border-radius: 20px;
+    box-shadow: 4px 1px 4px black;
+    text-decoration: none;
+    height: 174px;
+    width: 500px;
+    text-align: start;
+    padding-bottom: 28%;
+    padding-left: 2%;
+    appearance: none;
+    outline: none;
+}
+
+#idmensaje:focus {
+    font-family: 'Dosis';
+    animation: normal;
+    transition: 1s;
+    box-shadow: 6px 1px 4px rgb(255, 0, 119);
+    border-radius: 20px;
+    text-decoration: none;
+    height: 174px;
+    width: 500px;
+    text-align: start;
+    padding-bottom: 28%;
+    padding-left: 2%;
+    appearance: none;
+    outline: none;
+}
+
+.boton3 {
+    margin-left: 2%;
+    padding: 8%;
+    padding-top: 2%;
+    margin: 2%;
+    font-size: 20px;
+    font-family: 'Dosis';
+    border-radius: 30px;
+    width: 130px;
+    height: 30px;
+    color: white;
+    background-color: rgb(255, 118, 164);
+}
+
+.boton3:hover {
+    margin-left: 2%;
+    padding: 8%;
+    padding-top: 2%;
+    margin: 2%;
+    font-size: 20px;
+    font-family: 'Dosis';
+    border-radius: 30px;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(255, 118, 164, 0.678);
+    animation: normal;
+    transition: 1s;
+    color: white;
+}
+
+label {
+    margin: 10px 0px; 
+}
+
