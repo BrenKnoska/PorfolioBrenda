@@ -57,6 +57,14 @@ h4 {
     justify-content: center;
 }
 
+.letra {
+    font-family: 'Dosis';
+    font-size: 20px;
+    display: flex;
+    color: white;
+    margin-bottom: 1%;
+}
+
 i {
     font-size: 75px;
     display: flex;
@@ -77,7 +85,12 @@ i {
 }
 
 a:hover {
-    color: #ffbde3;
+    color: #ff9eff;
+}
+a:focus{
+ border: #b35092;
+color: #ff9249;
+text-shadow: 6px 6px 6px black;
 }
 
 header {
@@ -118,18 +131,32 @@ main {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     opacity: 0.8;
+    box-shadow: black  3px 2px 4px;
+    
 }
 
 .botoncontacto {
     text-decoration: none;
-    color: #f4f9f9;
+    color: #ffffff;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background: linear-gradient(#ff9249, #b35092);
+    width: 10vw;
+    text-align: center;
+}
+
+.botoncontacto:focus {
+    animation-direction: normal;
+    box-shadow: rgb(138, 101, 101);
+    font-weight: normal;
+    text-decoration: none;
+    color: #ff7ed4;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    background: linear-gradient(#e66465, #666666);
-    width: 10vw;
-    text-align: center;
 }
 
 .lohago {
@@ -144,6 +171,23 @@ main {
     margin-top: 9%;
     margin-bottom: 8%;
     font-size: 21px;
+}
+
+.lohago:focus {
+    display: block;
+    width: 230px;
+    padding: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Dosis';
+    margin-top: 9%;
+    margin-bottom: 8%;
+    font-size: 21px;
+    animation: normal;
+    transition: 1s;
+    color: rgb(250, 121, 0);
 }
 
 li {
@@ -313,7 +357,7 @@ ul {
 #contactame {
     background-color: rgb(214, 181, 181);
     width: auto;
-    height: auto;
+    height: 150vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -328,9 +372,6 @@ ul {
     height: 693px;
     border-radius: 13px;
     margin-top: 10%;
-  
-   
-
 }
 
 .redes-sociales {
@@ -395,7 +436,7 @@ ul {
     align-items: baseline;
 }
 
-.fab.fa-twitter {
+.iconotwygit {
     color: #E66465;
     display: flex;
     margin: 0px;
@@ -405,17 +446,7 @@ ul {
     font-size: 16px;
 }
 
-.fab.fa-github-alt {
-    color: #E66465;
-    display: flex;
-    margin: 0px;
-    padding-left: 8px;
-    margin-left: -20px;
-    padding-right: 8px;
-    font-size: 16px;
-}
-
-.fab.fa-linkedin-in {
+.iconolink {
     color: #E66465;
     display: flex;
     margin: 0px;
@@ -425,7 +456,7 @@ ul {
     font-size: 18px;
 }
 
-.fas.fa-envelope {
+.iconogmail {
     color: #E66465;
     display: flex;
     margin: 0px;
@@ -459,7 +490,7 @@ ul {
     align-self: baseline;
     padding-top: 6%;
     align-self: baseline;
-    color: white;
+    color: #E66465;
 }
 
 .botoncirculartipo2:hover {
@@ -640,6 +671,98 @@ ul {
 }
 
 label {
-    margin: 10px 0px; 
+    margin: 10px 0px;
 }
 
+footer {
+    width: auto;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(117, 94, 94);
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -3%;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+
+}
+
+.pr {
+    padding-right: -30%;
+}
+
+.pr12 {
+    padding-right: 2%;
+    cursor:default;
+}
+
+.aicons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2%;
+
+}
+
+.lineacion {
+    margin: 0px;
+    padding: 0px;
+}
+
+.distancia {
+    /* /* word-spacing: normal; */
+    /* letter-spacing: em; */
+    display: flex;
+    padding-left: -7%;
+    padding-right: 1%;
+}
+
+.iconodefooter {
+    color: #ffa4fa;
+
+}
+
+.botonfooter {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    color: #ff77b0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    box-shadow: 5px 3px 9px black;
+
+}
+.botonfooter:hover {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    color: white;
+    background-color: #ff77b0;
+    animation: normal;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 0.3%;
+    box-shadow: 5px 3px 9px black;
+
+}
+.arriba{
+    margin-top: 4%;
+ 
+
+}
+.mover{
+    text-align: center;
+    margin-left: 9%;
+}
