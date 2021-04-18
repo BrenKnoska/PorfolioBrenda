@@ -87,10 +87,11 @@ i {
 a:hover {
     color: #ff9eff;
 }
-a:focus{
- border: #b35092;
-color: #ff9249;
-text-shadow: 6px 6px 6px black;
+
+a:focus {
+    border: #b35092;
+    color: #ff9249;
+    text-shadow: 6px 6px 6px black;
 }
 
 header {
@@ -131,8 +132,7 @@ main {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     opacity: 0.8;
-    box-shadow: black  3px 2px 4px;
-    
+    box-shadow: black 3px 2px 4px;
 }
 
 .botoncontacto {
@@ -690,8 +690,6 @@ footer {
     margin-bottom: -3%;
     padding-left: 10%;
     padding-right: 10%;
-   
-
 }
 
 .pr {
@@ -700,7 +698,7 @@ footer {
 
 .pr12 {
     padding-right: 2%;
-    cursor:default;
+    cursor: default;
 }
 
 .aicons {
@@ -709,7 +707,6 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 2%;
-
 }
 
 .lineacion {
@@ -727,7 +724,6 @@ footer {
 
 .iconodefooter {
     color: #ffa4fa;
-
 }
 
 .botonfooter {
@@ -740,8 +736,8 @@ footer {
     align-items: center;
     margin-left: 1%;
     box-shadow: 5px 3px 9px black;
-
 }
+
 .botonfooter:hover {
     border-radius: 50%;
     height: 48px;
@@ -755,14 +751,77 @@ footer {
     margin-left: 1%;
     margin-right: 0.3%;
     box-shadow: 5px 3px 9px black;
-
 }
-.arriba{
+
+.arriba {
     margin-top: 4%;
- 
-
 }
-.mover{
+
+.mover {
     text-align: center;
     margin-left: 9%;
+}
+
+ /* Acá van los cambios para responsive mobile */
+/* @media screen and (max-width: 348px) {
+   
+} */
+
+@media screen and (max-width: 576px) {
+    /* Acá van los cambios para responsive mobile */
+    header {
+        display: none;
+    }
+    main {
+        flex-direction: column;
+        height: 100%;
+    }
+    #skills {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .bloque1,.bloque2 {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    .alinear-izquierda {
+        padding-right: 0;
+    }
+    .citas {
+        margin-top: 0;
+    }
+    ul {
+        height: auto;
+    }
+    #contactame {
+        flex-direction: column;
+        height: auto;
+    }
+    .contenedordedatos {
+        flex-direction: column;
+    }
+    #idapellido, #idnombre,#idemail,#idmensaje {
+        width: auto;
+        margin: 2%;
+    }
+    .separacion {
+     margin-left: 0;
+    }
+    .formulario {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        margin-top: 0px;
+        padding:0px;
+    }
+    ul.centrado.mover{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Acá van los cambios para responsive mobile */
 }
